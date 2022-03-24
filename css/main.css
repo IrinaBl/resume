@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto&family=Source+Serif+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Source Serif Pro, serif;
+    font-weight: normal;
+    color: rgb(219, 41, 10);
+    background-color: bisque;
+    opacity: 1;
+}
+
+.container {
+   max-width: 650px;
+   margin: auto;
+}
+
+.info {
+    display: flex;     
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.info img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 200px;
+}
+
+.info_text {
+    margin-left: 50px;
+}
+
+.social, p {
+    padding-top: 10px;
+}
+
+a .fa {
+    color: rgb(219, 41, 10);  
+}
+
+a:hover {
+    font-size:20px ;
+}
+
+a:visited {
+    color: gray;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .info_text {
+        margin: 10px;
+    }
+   
+}
+
+.card {
+    border-radius: 10px;
+    background-color: rgb(219, 41, 10);
+    color: bisque;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+@media (max-width: 520px) {
+    .card {
+        font-size: 14px;
+        margin-right: 10px;
+        margin-left: 10px;
+       
+    }
+}
+
+.hobby ul li {
+    margin-left: 10px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.hobby ul li:first-child {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+}
+table td, th {
+    padding-bottom: 10px;
+}
+.table h2 {
+    margin-bottom: 20px;
+}
+table td {
+    padding-left: 10px; 
+}
+
+@media (max-width: 520px) {
+    table {
+    padding: 10px;
+    margin-left: 0;
+    }
+}
+
+form h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form {
+    margin: 0 10px;
+}
+
+.form_row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form_row .form_group {
+    display: inline-block;
+    margin-right: 20px;
+    width: 50%;
+    margin-right: 0;
+}
+
+.form_row .form_group:last-child {
+    margin-right: 0;
+}
+
+.form_group label{
+    display: block;
+    font-family: Source Serif Pro, serif;
+    font-size: 16px;
+}
+.form_group input,
+.form_group textarea {
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    width: 100%;
+    border-bottom: 1px solid rgb(219, 41, 10);
+    color: grey ;
+    outline: none;
+    font-family: Source Serif Pro, serif;
+    padding: 15px 0 10px;
+}
+@media (max-width:520px){
+    .form_row {
+        display: block;
+    }
+
+    .form_row .form_group {
+        width: 100%;
+    }
+}
+
+.btn {
+    background: rgb(219, 41, 10);
+    border: none;
+    padding: 7px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: bisque;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-family: Source Serif Pro, serif;
+    display: block;
+}
+
+.btn:hover {
+   opacity: 0.8;
+}
+
+
